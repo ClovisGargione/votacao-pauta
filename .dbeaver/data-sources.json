@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-19012d7a035-55d94fc055ece913": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "desafio.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/credisfera/Documents/projetos-estudos/votacao-pauta/src/main/resources/desafio.db",
+				"url": "jdbc:sqlite:/home/credisfera/Documents/projetos-estudos/votacao-pauta/src/main/resources/desafio.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
