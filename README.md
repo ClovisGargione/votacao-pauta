@@ -1,17 +1,17 @@
 # votacao-pauta
 Aplicação gerenciador de votação em pautas por associado
 
-**Versões:**
-*Java 17*
-*Maven 3.8.6*
-*jmeter 3.7.0*
+**Versões:** <br>
+*Java 17* <br>
+*Maven 3.8.6* <br>
+*jmeter 3.7.0* <br>
 *Spring boot 3.3.0*
 
-**Banco de dados**
+**Banco de dados** <br>
 *SQLite*
 
 ## Documentação API
-http://<seu-dominio>/api/v1/swagger-ui/index.html
+http://www.meudominio.com.br/api/v1/swagger-ui/index.html
 
 ## Execução
 Iniciar navegação pela url **http://localhost:8080/api/v1/associados/listar-associados**
